@@ -185,7 +185,7 @@ plot(PA3summary$`PA2$interval`, PA3summary$`PA2$steps`, type="l", xlab= "Interva
      main = "Average Daily Pattern for Number of Steps per Intervals")
 ```
 
-![](PA1_template_files/figure-html/Time Series Plot of steps taken averaged-1.png)<!-- -->
+![](PA1_template_files/figure-html/Time_Series-1.png)<!-- -->
 
 Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -262,7 +262,7 @@ hist(PA2summary$`PA2$steps`, col="Red", xlab="Steps", ylab="Frequency", add=T)
 legend("topleft", c("NAs Removed", "Original File Data"), fill=c("green", "red"))
 ```
 
-![](PA1_template_files/figure-html/Aggregate Data with NAs replaced-1.png)<!-- -->
+![](PA1_template_files/figure-html/Aggregate_Data-1.png)<!-- -->
 
 Calculate and report the mean and median of the total number of steps taken per day with NAs replaced
 
@@ -325,7 +325,7 @@ xyplot(mean ~ interval|daytype, data=PA1cloneplot, type="l",  layout = c(1,2),
        ylab="Average Number of Steps", xlab="Interval")
 ```
 
-![](PA1_template_files/figure-html/Panel Plot the Data-1.png)<!-- -->
+![](PA1_template_files/figure-html/Panel_Plot-1.png)<!-- -->
 
 
 
